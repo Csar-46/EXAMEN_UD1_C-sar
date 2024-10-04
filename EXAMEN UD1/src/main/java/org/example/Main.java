@@ -6,7 +6,7 @@ public class Main {
 
         Examen Examen = new Examen();
         Examen.ejercicio1 ();
-        Examen.ejercicio2 ();
+        //Examen.ejercicio2 ();
 
     }
 }
