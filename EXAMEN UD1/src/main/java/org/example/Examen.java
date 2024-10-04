@@ -79,7 +79,7 @@ public class Examen {
         if (num >= 0){ //Con la condicion vemos si es positivo o negativo
             System.out.println("El valor absoluto es " + num);
         }else{
-            num = num + (2*(-num)); //Con esta operacion cambio el valor de negativo a positivo para que imprima el valor absoluto
+            num = num * (-1); //Con esta operacion cambio el valor de negativo a positivo para que imprima el valor absoluto
             System.out.println("El valor absoluto es " + num);
         }
     }
