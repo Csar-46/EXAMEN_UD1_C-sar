@@ -19,11 +19,11 @@ public class Examen {
             try {
                 while (num1 < 0 || num1 > 10 || num2 < 0 || num2 > 10 || num3 < 0 || num3 > 10) {
 
-                    System.out.println("Introuce la nota del primer trimestre (0-10):");
+                    System.out.println("Introduce la nota del primer trimestre (0-10):");
                     num1 = entrada.nextInt();
-                    System.out.println("Introuce la nota del segundo trimestre (0-10):");
+                    System.out.println("Introduce la nota del segundo trimestre (0-10):");
                     num2 = entrada.nextInt();
-                    System.out.println("Introuce la nota del tercer trimestre (0-10):");
+                    System.out.println("Introduce la nota del tercer trimestre (0-10):");
                     num3 = entrada.nextInt();
 
                     if (num1 < 0 || num1 > 10 || num2 < 0 || num2 > 10 || num3 < 0 || num3 > 10) {
